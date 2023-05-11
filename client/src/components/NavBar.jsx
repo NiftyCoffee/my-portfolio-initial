@@ -8,27 +8,37 @@ const NavBar = () => {
     const handleClick = (index) => {
       setActiveIndex(index === activeIndex ? null : index);
     };
-  
+    
+    const rotate = (event) => {
+        const icon = event.currentTarget;
+        if (!icon.classList.contains('square')) {
+            const untoggle = document.querySelector('.square');
+            icon.classList.toggle('square');
+            untoggle.classList.toggle('square');
+        }
+    };
+
+
     return (
         <>
           <nav>
-            <ul>
-                <li>
+            <ul id='scroll-bar'>
+                <li className="square" onClick={rotate}>
                     <a href="#home">
                         <img className="nav-icon" src={icon} />
                     </a>
                 </li>
-                <li>
+                <li onClick={rotate}>
                     <a href="#about">
                         <img className="nav-icon" src={icon} />
                     </a>
                 </li>
-                <li>
+                <li onClick={rotate}>
                     <a href="#projects">
                         <img className="nav-icon" src={icon} />
                     </a>
                 </li>
-                <li>
+                <li onClick={rotate}>
                     <a href="#contact">
                         <img className="nav-icon" src={icon} />
                     </a>
