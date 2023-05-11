@@ -1,0 +1,18 @@
+#home {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+#home h3.pretitle {
+    margin: 0;
+}
+
+#home p {
+    font-size: 1.5rem;
+    max-width: 45%;
+    margin-top: 1rem;
+}

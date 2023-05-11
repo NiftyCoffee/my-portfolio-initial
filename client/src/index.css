@@ -1,4 +1,40 @@
 :root {
+  background-color: #e2dcdc;
+  font-family: 'Space Mono', 'Monospace', 'Courier New';
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+}
+
+.main-font {
+  font-family: 'Playfair Display', Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 8rem;
+  margin: 0;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+.pretitle {
+  font-size: 1.2rem;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -66,4 +102,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */

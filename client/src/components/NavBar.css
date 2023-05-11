@@ -1,0 +1,28 @@
+nav {
+    position: fixed;
+    right: 2rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a img.nav-icon {
+    width: 1rem;
+    height: 1rem;
+    margin: 0.8rem 1rem;
+    transition: transform 0.3s ease;
+}
+
+nav ul li a {
+    transition: transform 0.3s ease;
+  }
+  
+nav ul li a.active img.nav-icon {
+    transform: rotate(45deg);
+    transform-origin: center;
+}
