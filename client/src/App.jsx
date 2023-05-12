@@ -18,7 +18,7 @@ function App() {
     <>
       <Logo />
       <NavBar />
-      <div id="wrap">
+      <div id="site-components">
         <section>
           <div className="content"><Home /></div>
         </section>
