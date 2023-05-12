@@ -66,3 +66,48 @@
     display: flex;
     justify-content: space-around;
 }
+
+@media (max-width: 400px) {
+    .about-container {
+        width: 70%;
+    }
+
+    .row-two {
+        flex-direction: column-reverse;
+        align-items: end;
+    }
+
+    .prof-pic,
+    .img-shadow,
+    .img-border {
+        width: 15rem;
+        height: 15rem;
+        position: absolute;
+    }
+
+    .left {
+        margin-top: 10rem;
+    }
+
+    .right {
+        align-items: start;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 800px) {
+    .about-container {
+        width: 65%;
+    }
+
+    .row-two {
+        flex-direction: column-reverse;
+    }
+
+    .left {
+        margin-top: 13rem;
+    }
+
+    .right {
+        align-items: start;
+    }
+}

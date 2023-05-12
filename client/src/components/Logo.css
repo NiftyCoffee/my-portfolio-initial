@@ -2,6 +2,7 @@
     position: fixed;
     top: 1rem;
     left: 3rem;
+    z-index: 10;
 }
 
 /* .logo span {
@@ -33,6 +34,7 @@
     color: #e2dcdc;
     transform: rotate(45deg);
     transition: transform 0.3s ease-in-out;
+    background-color: #e2dcdc;
 }
 
 .logo div.visible {
