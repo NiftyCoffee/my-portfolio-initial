@@ -25,10 +25,10 @@ function App() {
         <section>
           <div className="content"><About /></div>
         </section>
-        <section>
+        <section className='section-projects'>
           <div className="content"><Projects /></div>
         </section>
-        <section>
+        <section className='section-contact'>
           <div className="content"><Contact /></div>
         </section>
       </div>

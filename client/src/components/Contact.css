@@ -67,3 +67,19 @@
 .email-btn:hover {
     transform: translate(0.3rem, -0.3rem);
 }
+
+@media (max-width: 400px) {
+    .contact-header {
+        font-size: 3rem;
+    }
+
+    .contact-message {
+        width: 18rem;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 800px) {
+    .contact-message {
+        width: 17rem;
+    }
+}

@@ -129,3 +129,62 @@
 .resume-btn:hover + .arrow-icon {
     transform: translate(0.5rem);
 }
+
+@media (max-width: 400px) {
+    .section-projects {
+        margin: 40rem 0 20rem 0;
+        overflow: visible;
+    }
+
+    .projects-container {
+        width: 20rem;
+    }
+    
+    .project-gallery {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 12rem;
+    }
+
+    .project-title {
+        font-size: 1.5rem;
+    }
+
+    .project-desc {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 800px) {
+    .section-projects {
+        margin: 40rem 0 20rem 0;
+    }
+
+    .projects-container {
+        width: 30rem;
+    }
+
+    .project-gallery {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 16rem;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1200px) {
+    .projects-container {
+        width: 50rem;
+    }
+
+    .project-title {
+        font-size: 1.7rem;
+    }
+
+    .project-desc {
+        font-size: 1rem;
+    }
+}

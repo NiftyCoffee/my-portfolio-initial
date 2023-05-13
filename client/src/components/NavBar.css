@@ -36,3 +36,9 @@ nav ul li a img.nav-icon {
     }
 }
 
+@media (min-width: 801px) and (max-width: 1200px) {
+    nav {
+        display: none;
+    }
+}
+
