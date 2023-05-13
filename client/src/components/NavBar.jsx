@@ -23,22 +23,22 @@ const NavBar = () => {
         <>
           <nav>
             <ul id='scroll-bar'>
-                <li className="square" onClick={rotate}>
+                <li>
                     <a href="#home">
                         <img className="nav-icon" src={icon} />
                     </a>
                 </li>
-                <li onClick={rotate}>
+                <li>
                     <a href="#about">
                         <img className="nav-icon" src={icon} />
                     </a>
                 </li>
-                <li onClick={rotate}>
+                <li>
                     <a href="#projects">
                         <img className="nav-icon" src={icon} />
                     </a>
                 </li>
-                <li onClick={rotate}>
+                <li>
                     <a href="#contact">
                         <img className="nav-icon" src={icon} />
                     </a>

@@ -19,7 +19,12 @@ nav ul li a img.nav-icon {
     transition: transform 0.3s ease;
 }
 
-.square a img.nav-icon {
+/* .square a img.nav-icon {
+    transform: rotate(90deg);
+    transform: scale(1.5);
+} */
+
+nav ul li a:hover img.nav-icon {
     transform: rotate(90deg);
     transform: scale(1.5);
 }
