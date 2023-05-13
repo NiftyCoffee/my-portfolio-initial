@@ -5,6 +5,7 @@ import Home from './components/Home.jsx'
 import About from './components/About.jsx'
 import Projects from './components/Projects.jsx'
 import Contact from './components/Contact.jsx'
+import Footer from './components/Footer.jsx';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           <div className="content"><Contact /></div>
         </section>
       </div>
+      <Footer />
     </>
   )
 }
