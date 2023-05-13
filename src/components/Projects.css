@@ -101,6 +101,7 @@
 .resume-btn {
     border: none;
     background-color: inherit;
+    color: #272727;
     font-family: 'Space Mono', 'Monospace', 'Courier New';
     font-weight: 700;
     font-size: 1.2rem;
