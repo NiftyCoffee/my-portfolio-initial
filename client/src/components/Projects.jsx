@@ -15,7 +15,7 @@ const Projects = () => {
                                 <button>
                                     View GitHub
                                 </button>
-                                <span className="btn-shadow">View GitHub</span>
+                                <span className="btn-shadow"></span>
                             </div>
                         </li>
                         <li className="project-card">
@@ -25,7 +25,7 @@ const Projects = () => {
                                 <button>
                                     View GitHub
                                 </button>
-                                <span className="btn-shadow">View GitHub</span>
+                                <span className="btn-shadow"></span>
                             </div>
                         </li>
                         <li className="project-card">
@@ -35,7 +35,7 @@ const Projects = () => {
                                 <button>
                                     View GitHub
                                 </button>
-                                <span className="btn-shadow">View GitHub</span>
+                                <span className="btn-shadow"></span>
                             </div>
                         </li>
                     </ul>
