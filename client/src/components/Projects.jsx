@@ -1,7 +1,66 @@
 import './Projects.css';
 import arrow_icon from '../assets/arrow.svg';
+import ScrollReveal from 'scrollreveal';
+import { useEffect } from 'react';
 
 const Projects = () => {
+
+    useEffect(() => {
+
+        const sr = ScrollReveal({opacity: 0});
+
+        sr.reveal('.project-card:nth-child(1)', {
+            delay: 100,
+            distance: '7rem',
+            origin: 'top',
+            duration: 500,
+            reset: true,
+            easing: 'ease-in-out',
+            viewFactor: 0.2,
+        });
+
+        sr.reveal('.project-card:nth-child(2)', {
+            delay: 250,
+            distance: '7rem',
+            origin: 'top',
+            duration: 500,
+            reset: true,
+            easing: 'ease-in-out',
+            viewFactor: 0.2,
+        });
+
+        sr.reveal('.project-card:nth-child(3)', {
+            delay: 400,
+            distance: '7rem',
+            origin: 'top',
+            duration: 500,
+            reset: true,
+            easing: 'ease-in-out',
+            viewFactor: 0.2,
+        });
+
+        sr.reveal('.projects-container h2', {
+            delay: 100,
+            distance: '3rem',
+            origin: 'left',
+            duration: 200,
+            reset: true,
+            easing: 'ease-in-out',
+            viewFactor: 0.2,
+        });
+
+        sr.reveal('.resume-btn-container', {
+            delay: 100,
+            distance: '3rem',
+            origin: 'left',
+            duration: 200,
+            reset: true,
+            easing: 'ease-in-out',
+            viewFactor: 0.2,
+        });
+
+    }, []);
+
     return (
         <>
             <div id="projects">

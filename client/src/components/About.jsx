@@ -1,7 +1,65 @@
 import './About.css';
 import prof_pic from '../assets/profile-pic.jpg';
+import ScrollReveal from 'scrollreveal';
+import { useEffect } from 'react';
 
 const About = () => {
+
+    useEffect(() => {
+
+        const sr = ScrollReveal({ viewFactor: 0 });
+
+        sr.reveal(".row-one", {
+            reset: true,
+            delay: 100,
+            duration: 400,
+            origin: 'right',
+            distance: '5rem',
+            viewFactor: 0.2,
+        });
+
+        sr.reveal(".right", {
+            reset: true,
+            delay: 100,
+            duration: 400,
+            origin: 'left',
+            distance: '5rem',
+            viewFactor: 0.2,
+        });
+
+        sr.reveal(".left", {
+            reset: true,
+            delay: 200,
+            duration: 800,
+            rotate: {
+                x: -20,
+                z: -20
+            },
+            viewFactor: 1,
+        });
+
+        sr.reveal(".img-border", {
+            reset: true,
+            delay: 200,
+            duration: 1000,
+            rotate: {
+                x: 40,
+                z: 40
+            },
+            viewFactor: 1,
+        });
+
+        // sr.reveal(".img-shadow", {
+        //     delay: 500,
+        //     duration: 2000,
+        //     rotate: {
+        //       x: -20,
+        //       z: -20
+        //     }
+        // });
+
+    }, []);
+
     return (
         <>
             <div id="about">

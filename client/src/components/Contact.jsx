@@ -2,8 +2,76 @@ import './Contact.css';
 import github_icon from '../assets/github-icon.svg';
 import instagram_icon from '../assets/instagram-icon.svg';
 import linkedin_icon from '../assets/linkedin-icon.svg';
+import ScrollReveal from 'scrollreveal';
+import { useEffect } from 'react';
 
 const Contact = () => {
+
+    useEffect(() => {
+
+        const sr = ScrollReveal({opacity: 0});
+
+        sr.reveal('.contact-header', {
+            delay: 100,
+            duration: 600,
+            distance: '2rem',
+            origin: 'left',
+            reset: true,
+        });
+
+        sr.reveal('.contact-pretitle', {
+            delay: 200,
+            duration: 800,
+            distance: '2rem',
+            origin: 'bottom',
+            reset: true,
+        });
+
+        sr.reveal('.contact-message', {
+            delay: 200,
+            duration: 800,
+            distance: '2rem',
+            origin: 'bottom',
+            reset: true,
+        });
+
+        sr.reveal('.email-btn-container', {
+            delay: 200,
+            duration: 800,
+            distance: '2rem',
+            origin: 'bottom',
+            reset: true,
+        });
+
+        sr.reveal('.github-link', {
+            delay: 600,
+            duration: 600,
+            distance: '3rem',
+            origin: 'top',
+            reset: true,
+            easing: 'ease-in-out',
+        });
+
+        sr.reveal('.instagram-link', {
+            delay: 700,
+            duration: 600,
+            distance: '3rem',
+            origin: 'top',
+            reset: true,
+            easing: 'ease-in-out',
+        });
+
+        sr.reveal('.linkedin-link', {
+            delay: 800,
+            duration: 600,
+            distance: '3rem',
+            origin: 'top',
+            reset: true,
+            
+        });
+
+    }, [])
+
     return (
         <>
             <div id="contact">
